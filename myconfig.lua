@@ -19,3 +19,6 @@ vim.keymap.set('n', '<Leader>d', ':lua vim.diagnostic.disable()<CR>')
 -- lvim.builtin.bufferline.options.always_show_bufferline = false
 
 lvim.builtin.nvimtree.active = false
+
+vim.opt.background = "light"
+
